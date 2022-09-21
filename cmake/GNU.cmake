@@ -1,7 +1,7 @@
 set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -ggdb -fbacktrace -cpp -fcray-pointer -ffree-line-length-none -fno-range-check")
 
 if(${CMAKE_Fortran_COMPILER_VERSION} VERSION_GREATER_EQUAL 10)
-    set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -fallow-argument-mismatch -fallow-invalid-boz")
+    set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -traceback -fallow-argument-mismatch -fallow-invalid-boz")
 endif()
 
 if(NOT 32BIT)
