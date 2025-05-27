@@ -480,6 +480,7 @@ export FNABSC="'global_mxsnoalb.uariz.t126.384.190.rg.grb'"
 
 export RF_CUTOFF=30.0
 export FAST_TAU_W_SEC=0.0
+export RF_CUTOFF_W=100.0
 
 export TILEDFIX=.false.
 export DO_CA=.false.
@@ -712,6 +713,7 @@ export PSL_GWD_DX_FACTOR=6.0
 export DO_GSL_DRAG_TOFD=.false.
 export DO_UGWP_V1=.false.
 export DO_UGWP_V1_OROG_ONLY=.false.
+export DO_NGW_EC=.false.
 export KNOB_UGWP_SOLVER=2
 export KNOB_UGWP_SOURCE=1,1,0,0
 export KNOB_UGWP_WVSPEC=1,25,25,25
