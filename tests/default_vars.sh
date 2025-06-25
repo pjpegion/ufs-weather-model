@@ -1159,7 +1159,7 @@ export_ugwpv1() {
       export K_SPLIT=2
       export N_SPLIT=4
       export TAU=3.0
-      export RF_CUTOFF=100.0
+      export RF_CUTOFF=300.0
       export FV_SG_ADJ=450
       ;;
     "C1152")
@@ -1171,7 +1171,7 @@ export_ugwpv1() {
       export K_SPLIT=2
       export N_SPLIT=6
       export TAU=2.5
-      export RF_CUTOFF=100.0
+      export RF_CUTOFF=300.0
       export FV_SG_ADJ=450
       ;;
     "C3072")
@@ -1183,7 +1183,7 @@ export_ugwpv1() {
       export K_SPLIT=4
       export N_SPLIT=5
       export TAU=0.5
-      export RF_CUTOFF=100.0
+      export RF_CUTOFF=300.0
       export FV_SG_ADJ=300
       ;;
     *)
