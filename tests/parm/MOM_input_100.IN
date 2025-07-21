@@ -944,6 +944,9 @@ CD_TIDES = 0.0018               !   [nondim] default = 1.0E-04
 GUST_CONST = 0.02               !   [Pa] default = 0.0
                                 ! The background gustiness in the winds.
 USTAR_GUSTLESS_BUG = True       !   [Boolean] default = False
+LIQUID_RUNOFF_FROM_DATA = @[MOM6_RIVER_RUNOFF]  !   [Boolean] default = False
+                                ! If true, allows liquid river runoff to be specified via
+                                ! the data_table using the component name 'OCN'.
 ! === module ocean_stochastics ===
 DO_SPPT   = @[DO_OCN_SPPT]      ! [Boolean] default = False
                                 ! If true perturb the diabatic tendencies in MOM_diabadic_driver
